@@ -1,0 +1,16 @@
+D:\C# Basic\ProjectWinForm_CK\ProjectWinForm_CK\bin\Debug\ProjectWinForm_CK.exe.config
+D:\C# Basic\ProjectWinForm_CK\ProjectWinForm_CK\bin\Debug\ProjectWinForm_CK.exe
+D:\C# Basic\ProjectWinForm_CK\ProjectWinForm_CK\bin\Debug\ProjectWinForm_CK.pdb
+D:\C# Basic\ProjectWinForm_CK\ProjectWinForm_CK\bin\Debug\Guna.UI2.dll
+D:\C# Basic\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.csproj.AssemblyReference.cache
+D:\C# Basic\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.csproj.SuggestedBindingRedirects.cache
+D:\C# Basic\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.Properties.Resources.resources
+D:\C# Basic\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.csproj.GenerateResource.cache
+D:\C# Basic\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.csproj.CoreCompileInputs.cache
+D:\C# Basic\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.csproj.CopyComplete
+D:\C# Basic\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.exe
+D:\C# Basic\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.pdb
+D:\C# Basic\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.DangNhap.resources
+D:\C# Basic\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.DashBoard.resources
+D:\C# Basic\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.QLyKhachHang.UC_AddRoom.resources
+D:\C# Basic\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.QLyKhachSan.UC_CustomerRegister.resources
