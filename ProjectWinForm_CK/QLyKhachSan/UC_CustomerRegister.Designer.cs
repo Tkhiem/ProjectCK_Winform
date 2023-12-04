@@ -51,10 +51,8 @@ namespace ProjectWinForm_CK.QLyKhachSan
             this.label10 = new System.Windows.Forms.Label();
             this.cbo_LoaiGiuong = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.cbo_Phong = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.cbo_SoPhong = new Guna.UI2.WinForms.Guna2ComboBox();
             this.txtGiaTien = new Guna.UI2.WinForms.Guna2TextBox();
@@ -66,20 +64,20 @@ namespace ProjectWinForm_CK.QLyKhachSan
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(59, 14);
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(44, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(233, 25);
+            this.label1.Size = new System.Drawing.Size(297, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "Đăng Ký Khách Hàng";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(47, 52);
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(85, 52);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 17);
+            this.label2.Size = new System.Drawing.Size(59, 21);
             this.label2.TabIndex = 1;
             this.label2.Text = "Họ Tên";
             // 
@@ -95,7 +93,7 @@ namespace ProjectWinForm_CK.QLyKhachSan
             this.txtHoTen.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.txtHoTen.ForeColor = System.Drawing.Color.Black;
             this.txtHoTen.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtHoTen.Location = new System.Drawing.Point(50, 73);
+            this.txtHoTen.Location = new System.Drawing.Point(88, 73);
             this.txtHoTen.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtHoTen.Name = "txtHoTen";
             this.txtHoTen.PasswordChar = '\0';
@@ -108,10 +106,10 @@ namespace ProjectWinForm_CK.QLyKhachSan
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(47, 146);
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(85, 146);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(85, 17);
+            this.label3.Size = new System.Drawing.Size(106, 21);
             this.label3.TabIndex = 1;
             this.label3.Text = "Số Điện Thoại";
             // 
@@ -127,7 +125,7 @@ namespace ProjectWinForm_CK.QLyKhachSan
             this.txtSDT.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.txtSDT.ForeColor = System.Drawing.Color.Black;
             this.txtSDT.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSDT.Location = new System.Drawing.Point(50, 167);
+            this.txtSDT.Location = new System.Drawing.Point(88, 167);
             this.txtSDT.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.PasswordChar = '\0';
@@ -141,10 +139,10 @@ namespace ProjectWinForm_CK.QLyKhachSan
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(47, 240);
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(85, 232);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 17);
+            this.label4.Size = new System.Drawing.Size(79, 21);
             this.label4.TabIndex = 1;
             this.label4.Text = "Quốc Tịch";
             // 
@@ -160,7 +158,7 @@ namespace ProjectWinForm_CK.QLyKhachSan
             this.txtQTich.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.txtQTich.ForeColor = System.Drawing.Color.Black;
             this.txtQTich.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtQTich.Location = new System.Drawing.Point(50, 261);
+            this.txtQTich.Location = new System.Drawing.Point(88, 253);
             this.txtQTich.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtQTich.Name = "txtQTich";
             this.txtQTich.PasswordChar = '\0';
@@ -174,7 +172,7 @@ namespace ProjectWinForm_CK.QLyKhachSan
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(47, 338);
+            this.label6.Location = new System.Drawing.Point(85, 330);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(58, 17);
             this.label6.TabIndex = 1;
@@ -194,29 +192,29 @@ namespace ProjectWinForm_CK.QLyKhachSan
             "Nam",
             "Nữ",
             "Khác"});
-            this.cbo_GioiTinh.Location = new System.Drawing.Point(50, 358);
+            this.cbo_GioiTinh.Location = new System.Drawing.Point(88, 350);
             this.cbo_GioiTinh.Name = "cbo_GioiTinh";
-            this.cbo_GioiTinh.Size = new System.Drawing.Size(265, 36);
+            this.cbo_GioiTinh.Size = new System.Drawing.Size(306, 36);
             this.cbo_GioiTinh.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.cbo_GioiTinh.TabIndex = 3;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(47, 338);
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(85, 326);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 17);
+            this.label5.Size = new System.Drawing.Size(72, 21);
             this.label5.TabIndex = 1;
             this.label5.Text = "Giới Tính";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(47, 424);
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(85, 421);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(65, 17);
+            this.label7.Size = new System.Drawing.Size(82, 21);
             this.label7.TabIndex = 1;
             this.label7.Text = "Ngày Sinh";
             // 
@@ -227,7 +225,7 @@ namespace ProjectWinForm_CK.QLyKhachSan
             this.DateTime_NgSinh.FillColor = System.Drawing.Color.White;
             this.DateTime_NgSinh.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.DateTime_NgSinh.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.DateTime_NgSinh.Location = new System.Drawing.Point(50, 444);
+            this.DateTime_NgSinh.Location = new System.Drawing.Point(89, 456);
             this.DateTime_NgSinh.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.DateTime_NgSinh.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.DateTime_NgSinh.Name = "DateTime_NgSinh";
@@ -247,7 +245,7 @@ namespace ProjectWinForm_CK.QLyKhachSan
             this.txtDiaChi.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.txtDiaChi.ForeColor = System.Drawing.Color.Black;
             this.txtDiaChi.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtDiaChi.Location = new System.Drawing.Point(434, 165);
+            this.txtDiaChi.Location = new System.Drawing.Point(510, 167);
             this.txtDiaChi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.PasswordChar = '\0';
@@ -260,10 +258,10 @@ namespace ProjectWinForm_CK.QLyKhachSan
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(431, 144);
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(509, 146);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(47, 17);
+            this.label8.Size = new System.Drawing.Size(58, 21);
             this.label8.TabIndex = 5;
             this.label8.Text = "Địa chỉ";
             // 
@@ -279,7 +277,7 @@ namespace ProjectWinForm_CK.QLyKhachSan
             this.txtMaDD.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.txtMaDD.ForeColor = System.Drawing.Color.Black;
             this.txtMaDD.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtMaDD.Location = new System.Drawing.Point(434, 71);
+            this.txtMaDD.Location = new System.Drawing.Point(512, 73);
             this.txtMaDD.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtMaDD.Name = "txtMaDD";
             this.txtMaDD.PasswordChar = '\0';
@@ -292,10 +290,10 @@ namespace ProjectWinForm_CK.QLyKhachSan
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(431, 50);
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(509, 52);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(90, 17);
+            this.label9.Size = new System.Drawing.Size(111, 21);
             this.label9.TabIndex = 6;
             this.label9.Text = "Mã Định Danh";
             // 
@@ -306,7 +304,7 @@ namespace ProjectWinForm_CK.QLyKhachSan
             this.DateTime_NgDKy.FillColor = System.Drawing.Color.White;
             this.DateTime_NgDKy.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.DateTime_NgDKy.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.DateTime_NgDKy.Location = new System.Drawing.Point(434, 259);
+            this.DateTime_NgDKy.Location = new System.Drawing.Point(510, 270);
             this.DateTime_NgDKy.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.DateTime_NgDKy.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.DateTime_NgDKy.Name = "DateTime_NgDKy";
@@ -317,10 +315,10 @@ namespace ProjectWinForm_CK.QLyKhachSan
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(431, 238);
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(519, 239);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(90, 17);
+            this.label10.Size = new System.Drawing.Size(112, 21);
             this.label10.TabIndex = 9;
             this.label10.Text = "Ngày Đăng Ký";
             // 
@@ -338,9 +336,9 @@ namespace ProjectWinForm_CK.QLyKhachSan
             "Single",
             "Double",
             "KingSize"});
-            this.cbo_LoaiGiuong.Location = new System.Drawing.Point(787, 73);
+            this.cbo_LoaiGiuong.Location = new System.Drawing.Point(926, 73);
             this.cbo_LoaiGiuong.Name = "cbo_LoaiGiuong";
-            this.cbo_LoaiGiuong.Size = new System.Drawing.Size(265, 36);
+            this.cbo_LoaiGiuong.Size = new System.Drawing.Size(306, 36);
             this.cbo_LoaiGiuong.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.cbo_LoaiGiuong.TabIndex = 13;
             this.cbo_LoaiGiuong.SelectedIndexChanged += new System.EventHandler(this.cbo_LoaiGiuong_SelectedIndexChanged);
@@ -348,30 +346,20 @@ namespace ProjectWinForm_CK.QLyKhachSan
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(784, 52);
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(923, 52);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(76, 17);
+            this.label11.Size = new System.Drawing.Size(94, 21);
             this.label11.TabIndex = 11;
             this.label11.Text = "Loại Giường";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(784, 152);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(58, 17);
-            this.label13.TabIndex = 12;
-            this.label13.Text = "Giới Tính";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(784, 152);
+            this.label14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(923, 146);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(70, 17);
+            this.label14.Size = new System.Drawing.Size(88, 21);
             this.label14.TabIndex = 11;
             this.label14.Text = "Loại Phòng";
             // 
@@ -388,30 +376,20 @@ namespace ProjectWinForm_CK.QLyKhachSan
             this.cbo_Phong.Items.AddRange(new object[] {
             "VIP",
             "Normal"});
-            this.cbo_Phong.Location = new System.Drawing.Point(787, 172);
+            this.cbo_Phong.Location = new System.Drawing.Point(926, 167);
             this.cbo_Phong.Name = "cbo_Phong";
-            this.cbo_Phong.Size = new System.Drawing.Size(265, 36);
+            this.cbo_Phong.Size = new System.Drawing.Size(306, 36);
             this.cbo_Phong.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.cbo_Phong.TabIndex = 13;
             this.cbo_Phong.SelectedIndexChanged += new System.EventHandler(this.cbo_Phong_SelectedIndexChanged);
             // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(784, 246);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(58, 17);
-            this.label15.TabIndex = 12;
-            this.label15.Text = "Giới Tính";
-            // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(784, 246);
+            this.label16.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(923, 217);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(60, 17);
+            this.label16.Size = new System.Drawing.Size(76, 21);
             this.label16.TabIndex = 11;
             this.label16.Text = "Số Phòng";
             // 
@@ -425,9 +403,9 @@ namespace ProjectWinForm_CK.QLyKhachSan
             this.cbo_SoPhong.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cbo_SoPhong.ForeColor = System.Drawing.Color.Black;
             this.cbo_SoPhong.ItemHeight = 30;
-            this.cbo_SoPhong.Location = new System.Drawing.Point(787, 266);
+            this.cbo_SoPhong.Location = new System.Drawing.Point(927, 241);
             this.cbo_SoPhong.Name = "cbo_SoPhong";
-            this.cbo_SoPhong.Size = new System.Drawing.Size(265, 36);
+            this.cbo_SoPhong.Size = new System.Drawing.Size(306, 36);
             this.cbo_SoPhong.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.cbo_SoPhong.TabIndex = 13;
             this.cbo_SoPhong.SelectedIndexChanged += new System.EventHandler(this.cbo_SoPhong_SelectedIndexChanged);
@@ -444,7 +422,7 @@ namespace ProjectWinForm_CK.QLyKhachSan
             this.txtGiaTien.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.txtGiaTien.ForeColor = System.Drawing.Color.Black;
             this.txtGiaTien.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtGiaTien.Location = new System.Drawing.Point(787, 363);
+            this.txtGiaTien.Location = new System.Drawing.Point(927, 338);
             this.txtGiaTien.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtGiaTien.Name = "txtGiaTien";
             this.txtGiaTien.PasswordChar = '\0';
@@ -458,10 +436,10 @@ namespace ProjectWinForm_CK.QLyKhachSan
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(784, 342);
+            this.label18.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(923, 313);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(51, 17);
+            this.label18.Size = new System.Drawing.Size(64, 21);
             this.label18.TabIndex = 15;
             this.label18.Text = "Giá tiền";
             // 
@@ -477,7 +455,7 @@ namespace ProjectWinForm_CK.QLyKhachSan
             this.btn_ThemKH.FillColor = System.Drawing.Color.White;
             this.btn_ThemKH.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ThemKH.ForeColor = System.Drawing.Color.Black;
-            this.btn_ThemKH.Location = new System.Drawing.Point(913, 444);
+            this.btn_ThemKH.Location = new System.Drawing.Point(1053, 424);
             this.btn_ThemKH.Name = "btn_ThemKH";
             this.btn_ThemKH.Size = new System.Drawing.Size(180, 45);
             this.btn_ThemKH.TabIndex = 17;
@@ -500,9 +478,7 @@ namespace ProjectWinForm_CK.QLyKhachSan
             this.Controls.Add(this.label16);
             this.Controls.Add(this.cbo_Phong);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.label15);
             this.Controls.Add(this.cbo_LoaiGiuong);
-            this.Controls.Add(this.label13);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.DateTime_NgDKy);
             this.Controls.Add(this.label10);
@@ -523,8 +499,9 @@ namespace ProjectWinForm_CK.QLyKhachSan
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "UC_CustomerRegister";
-            this.Size = new System.Drawing.Size(1135, 512);
+            this.Size = new System.Drawing.Size(1320, 603);
             this.Load += new System.EventHandler(this.UC_CustomerRegister_Load);
+            this.Leave += new System.EventHandler(this.UC_CustomerRegister_Leave);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -552,10 +529,8 @@ namespace ProjectWinForm_CK.QLyKhachSan
         private System.Windows.Forms.Label label10;
         private Guna2ComboBox cbo_LoaiGiuong;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private Guna2ComboBox cbo_Phong;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private Guna2ComboBox cbo_SoPhong;
         private Guna2TextBox txtGiaTien;

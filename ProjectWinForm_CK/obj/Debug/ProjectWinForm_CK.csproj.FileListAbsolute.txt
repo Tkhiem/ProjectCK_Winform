@@ -14,3 +14,23 @@ D:\C# Basic\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.Dang
 D:\C# Basic\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.DashBoard.resources
 D:\C# Basic\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.QLyKhachHang.UC_AddRoom.resources
 D:\C# Basic\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.QLyKhachSan.UC_CustomerRegister.resources
+D:\C# Basic\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.QLyKhachSan.UC_CheckOut.resources
+D:\C# Basic\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.QLyKhachSan.UC_CustomerDetails.resources
+C:\ProjectWinForm_CK\ProjectWinForm_CK\bin\Debug\ProjectWinForm_CK.exe.config
+C:\ProjectWinForm_CK\ProjectWinForm_CK\bin\Debug\ProjectWinForm_CK.exe
+C:\ProjectWinForm_CK\ProjectWinForm_CK\bin\Debug\ProjectWinForm_CK.pdb
+C:\ProjectWinForm_CK\ProjectWinForm_CK\bin\Debug\Guna.UI2.dll
+C:\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.csproj.AssemblyReference.cache
+C:\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.DangNhap.resources
+C:\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.DashBoard.resources
+C:\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.Properties.Resources.resources
+C:\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.QLyKhachSan.UC_CheckOut.resources
+C:\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.QLyKhachHang.UC_Addroom.resources
+C:\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.QLyKhachSan.UC_CustomerDetails.resources
+C:\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.QLyKhachSan.UC_CustomerRegister.resources
+C:\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.csproj.GenerateResource.cache
+C:\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.csproj.CoreCompileInputs.cache
+C:\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.csproj.CopyComplete
+C:\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.exe
+C:\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.pdb
+C:\ProjectWinForm_CK\ProjectWinForm_CK\obj\Debug\ProjectWinForm_CK.QLyKhachSan.UC_Employee.resources

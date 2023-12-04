@@ -38,7 +38,10 @@ namespace ProjectWinForm_CK
             ucCusTomerRegister.Dock = DockStyle.Fill;
             panelContainer.Controls.Add(ucCusTomerRegister);
             uC_Addroom1.Visible = false;
-            ucCusTomerRegister.Visible = false;
+            uC_CustomerDetails1.Visible = false;
+            uC_CheckOut1.Visible = false;
+            uC_CustomerRegister1.Visible = false;  
+            uC_Employee1.Visible = false;
             btnThemPhong.PerformClick();
 
         }
@@ -56,6 +59,33 @@ namespace ProjectWinForm_CK
             PanelMove.Left = btnDKKHang.Left + 12;
             uC_CustomerRegister1.Visible = true;
             uC_CustomerRegister1.BringToFront();
+        }
+
+        private void uC_CheckOut1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnThanhToan_Click(object sender, EventArgs e)
+        {
+            PanelMove.Left = btnThanhToan.Left + 12;
+            uC_CheckOut1.Visible = true;
+            uC_CheckOut1.BringToFront();
+        }
+
+        private void btnThongTinKH_Click(object sender, EventArgs e)
+        {
+            PanelMove.Left = btnThongTinKH.Left + 12;   
+            uC_CustomerDetails1.Visible = true;
+            uC_CustomerDetails1.BringToFront();
+            
+        }
+
+        private void btnNhanVien_Click(object sender, EventArgs e)
+        {
+            PanelMove.Left = btnNhanVien.Left + 12;
+            uC_Employee1.Visible=true;
+            uC_Employee1.BringToFront();
         }
     }
 }

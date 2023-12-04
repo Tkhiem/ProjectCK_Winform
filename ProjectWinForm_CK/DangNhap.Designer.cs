@@ -115,6 +115,7 @@ namespace ProjectWinForm_CK
             this.txtPassWord.IconLeft = ((System.Drawing.Image)(resources.GetObject("txtPassWord.IconLeft")));
             this.txtPassWord.IconLeftSize = new System.Drawing.Size(30, 30);
             this.txtPassWord.Location = new System.Drawing.Point(356, 154);
+            this.txtPassWord.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtPassWord.Name = "txtPassWord";
             this.txtPassWord.PasswordChar = '*';
             this.txtPassWord.PlaceholderText = "Nhập mật khẩu";
@@ -138,6 +139,7 @@ namespace ProjectWinForm_CK
             this.txtTenTK.IconLeft = ((System.Drawing.Image)(resources.GetObject("txtTenTK.IconLeft")));
             this.txtTenTK.IconLeftSize = new System.Drawing.Size(30, 30);
             this.txtTenTK.Location = new System.Drawing.Point(356, 72);
+            this.txtTenTK.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTenTK.Name = "txtTenTK";
             this.txtTenTK.PasswordChar = '\0';
             this.txtTenTK.PlaceholderText = "Nhập tên tài khoản";

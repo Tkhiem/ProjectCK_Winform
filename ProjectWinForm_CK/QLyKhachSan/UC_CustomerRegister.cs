@@ -57,16 +57,54 @@ namespace ProjectWinForm_CK.QLyKhachSan
         int rid;
         private void cbo_SoPhong_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Query = "Select price ,roomid from rooms where roomNo ='" + cbo_SoPhong.Text + "'";
+            Query = "select price ,roomid from rooms where roomNo ='" + cbo_SoPhong.Text + "'";
             DataSet ds = fn.getData(Query);
             txtGiaTien.Text = ds.Tables[0].Rows[0][0].ToString();
-            rid = int.Parse(ds.Tables[0].Rows[0][0].ToString());
-
+            rid = int.Parse(ds.Tables[0].Rows[0]["roomid"].ToString());
         }
+
 
         private void btn_ThemKH_Click(object sender, EventArgs e)
         {
-            if(txtHoTen.Text!="")
+            if (txtHoTen.Text != "" && txtSDT.Text != "" && txtQTich.Text != "" && cbo_GioiTinh.Text != "" && DateTime_NgSinh.Text != "" && txtMaDD.Text != "" && txtDiaChi.Text != "" && DateTime_NgDKy.Text != "" && txtGiaTien.Text != "")
+            {
+                string name = txtHoTen.Text;
+                Int64 mobile=Int64.Parse(txtSDT.Text);
+                string national=txtQTich.Text;
+                string gender = cbo_GioiTinh.Text;
+                string dob = DateTime_NgSinh.Text;
+                string idproof = txtMaDD.Text;
+                string address = txtDiaChi.Text;
+                string checkin = DateTime_NgDKy.Text;
+
+                Query = "insert into customer (cname,mobile,nationality,gender,dob,idproof,address,checkin,roomid) values ('" + name + "','" + mobile + "','" + national + "','" + gender + "','"+dob+"','"+ idproof + "','" + address + "','" + checkin + "','" + rid + "') update rooms set booked = 'YES' where roomNo= '" + cbo_SoPhong.Text + "'";
+                fn.SetData(Query," Số phòng "+cbo_SoPhong.Text +"Đăng ký khách hàng thành công");
+                ClearAll();
+            }
+            else
+            {
+                MessageBox.Show("Xin vui lòng nhập đầy đủ thông tin ", "Thông tin", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+        public void ClearAll()
+        {
+            txtHoTen.Clear();
+            txtSDT.Clear();
+            txtQTich.Clear();
+            cbo_GioiTinh.SelectedIndex = -1;
+            DateTime_NgSinh.ResetText();
+            txtMaDD.Clear();
+            txtDiaChi.Clear();
+            DateTime_NgDKy.ResetText();
+            cbo_LoaiGiuong.SelectedIndex = -1;
+            cbo_Phong.SelectedIndex = -1;
+            cbo_SoPhong.Items.Clear();
+            txtGiaTien.Clear();
+        }
+
+        private void UC_CustomerRegister_Leave(object sender, EventArgs e)
+        {
+            ClearAll();
         }
     }
 }

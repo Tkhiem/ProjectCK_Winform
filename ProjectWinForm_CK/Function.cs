@@ -15,7 +15,7 @@ namespace ProjectWinForm_CK
         {
             SqlConnection com = new SqlConnection();
             //Tạo chuỗi kết nối SQL Server
-            com.ConnectionString = "Data Source=DESKTOP-NQ2695U\\SQLEXPRESS2022;Initial Catalog=MyHotel;Integrated Security=True;";
+            com.ConnectionString = "Data Source=WAGZINH\\SQLEXPRESS2022;Initial Catalog=MyHotel;Integrated Security=True";
             return com;
         }
 
@@ -44,7 +44,7 @@ namespace ProjectWinForm_CK
         }
         public SqlDataReader getforCombo(string query)
         {
-            SqlConnection com = new SqlConnection();
+            SqlConnection com = getconnection();
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = com;
             com.Open();

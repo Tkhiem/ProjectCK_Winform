@@ -11,7 +11,9 @@ using System.Windows.Forms;
 namespace ProjectWinForm_CK
 {
     public partial class DangNhap : Form
-    {
+    { 
+        Function fn = new Function();
+        String Query;
         public DangNhap()
         {
             InitializeComponent();
@@ -24,12 +26,14 @@ namespace ProjectWinForm_CK
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-            if (txtTenTK.Text == "NguyenKhiem" && txtPassWord.Text == "123")
+            Query = "select username,pass from employee where username = '" + txtTenTK.Text + "' and pass = '" + txtPassWord.Text + "'";
+            DataSet ds = fn.getData(Query);
+            if (ds.Tables[0].Rows.Count!=0)
             {
                 lblError.Visible = false;
-                DashBoard ds = new DashBoard();
+                DashBoard dash = new DashBoard();
                 this.Hide();
-                ds.Show();
+                dash.Show();
             }
             else
             {
